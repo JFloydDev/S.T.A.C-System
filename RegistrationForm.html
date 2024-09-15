@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Augustine Catholic School Registration</title>
+    <link rel="stylesheet" href="RegistrationForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="registration-form">
+            <div class="school-logo">
+                <img src="Assets/Logo.png" alt="School Logo">
+            </div>
+            <h1>ST. Augustine Catholic School</h1>
+            <hr>    
+            <h3>Welcome to St. Augustine Catholic School Registration</h3>
+
+            <form action="UserRegister.html" method="post">
+                <div class="form-group">
+                    
+                    <input type="text" id="firstname" placeholder="Firstname" required>
+                    <input type="text" id="middleI" class="short-input" placeholder="M.I." maxlength="1">
+                    <input type="text" id="lastname" placeholder="Lastname" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="date" id="birthday" placeholder="Birthday" required>
+                </div>
+                <div class="form-group">
+                    <select id="gender" required>
+                        <option value="" disabled selected>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input type="tel" id="phoneNumber" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="address" placeholder="Address" required>
+                    <input type="text" id="country" placeholder="Country" required>
+                </div>
+                <button type="submit" id="submitButton">Next Step</button>
+                <p>Already have an account? <a href="LoginForm.html">Sign In Here</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="JS-Files/RegisterForm.js"></script>
+</body>
+</html>

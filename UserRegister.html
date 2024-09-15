@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Augustine Catholic School Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="UserRegister.css">
+</head>
+<body>
+
+<div class="background">
+    <div class="form-container">
+        <div class="logo">
+            <img src="Assets/Logo.png" alt="School Logo">
+            
+            <h1>ST. Augustine Catholic School</h1>
+            <hr> 
+            <h3>Welcome to St. Augustine Catholic School Registration</h3>
+        </div>
+        <form>
+            <div class="row">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                    <i class="fas fa-user icon"></i>
+                </div>
+                <div class="form-group">
+                    <label for="graduationYear">Graduation Year</label>
+                    <input type="text" id="graduationYear" name="graduationYear" placeholder="Graduation Year" required>
+                    <i class="fas fa-calendar icon"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="educationalBackground">Educational Background</label>
+                    <input type="text" id="educationalBackground" name="educationalBackground" placeholder="Educational Background" required>
+                    <i class="fas fa-graduation-cap icon"></i>
+                </div>
+                <div class="form-group">
+                    <label for="professionalHistory">Professional History</label>
+                    <input type="text" id="professionalHistory" name="professionalHistory" placeholder="Professional History" required>
+                    <i class="fas fa-briefcase icon"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <i class="fas fa-eye toggle-password" onclick="togglePassword('password')"></i>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+                    <i class="fas fa-eye toggle-password" onclick="togglePassword('confirmPassword')"></i>
+                </div>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+        <div class="footer">
+            Already have an Account? <a href="#\\
+            ">Sign In Here</a>
+        </div>
+    </div>
+</div>
+
+<script src="JS-Files/UserReg.js"></script>
+
+</body>
+</html>

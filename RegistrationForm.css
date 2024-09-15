@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('Assets/Left-Side\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.school-logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #333;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc; 
+    width: 80%; 
+    margin: 10px auto; 
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    margin-right: 10px;
+}
+
+#firstname {
+    margin-right: 10px; 
+}
+
+.short-input {
+    width: 50px;
+}
+
+input, select {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #c9302c;
+    outline: none;          
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c9302c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+p {
+    margin-top: 20px;
+}
+
+p a {
+    color: #c9302c;     
+    text-decoration: none;
+}
